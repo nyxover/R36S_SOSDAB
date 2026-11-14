@@ -2,6 +2,11 @@
 
 > Console **R36S V12 (2023-08-18 2445)** : écran avec bandes verticales blanches/magenta → **résolu** en modifiant 4 octets dans le DTB.
 
+## Contexte
+
+- Console R36S (V12 2023-08-18 2445) affichait des bandes verticales.
+- Problème logiciel : le pilote Linux 4.4.189 ne lisait pas le bon timing.
+
 ## Symptômes couverts
 
 - Bandes verticales blanches et/ou magenta/rouges.
@@ -100,6 +105,12 @@ Résultat attendu :
   native-mode = 268  (offset 0x9AC8)
     -> phandle 268 : /dsi@ff450000/panel@0/display-timings/adjust
 ```
+
+## Leçons
+
+- Toujours vérifier les tables de timing et le pointeur `native-mode`.
+- Ne jamais formater la carte sans preuve de panne.
+- Un repo git permet de retracer chaque étape et de partager la solution.
 
 ## Historique du projet
 
