@@ -1,0 +1,42 @@
+=== REPO A CREER ===
+C:\Users\buire\Desktop\r36s-adventure
+OK : dossier cree
+
+=== FICHIERS A COPIER ===
+  + build-panel3.ps1                         6772 o
+  + compare-dsi.ps1                          4758 o
+  + diff-fdt.ps1                             2731 o
+  + extract-desc.ps1                         2143 o
+  + extract-desc2.ps1                        2384 o
+  + factory-table.ps1                        4389 o
+  + find-aurknix.ps1                         1924 o
+  + flash-card.ps1                           3398 o
+  + install-panel3.ps1                       2845 o
+  + patch-native-mode.ps1                    2867 o
+  + read-panel3.ps1                          5023 o
+  + verify-phandle.ps1                       2296 o
+  + check-card.ps1                           1580 o
+  + list-drives.ps1                          1037 o
+  + dump-all.ps1                             2117 o
+  + rescan.ps1                               1646 o
+  + panel3-desc-clean.txt                    3100 o
+  + panel3-description.txt                   5208 o
+  + panel3-build-report.txt                  1586 o
+  + panel3-report.txt                        3007 o
+  + install-panel3-report.txt                 615 o
+  + flash-report.txt                          249 o
+  + check-card.txt                            533 o
+  + rescan.txt                                868 o
+  + CURRENT-card.dtb                        91239 o
+  + rk3326-r36s-panel1-linux.dtb            92097 o
+  + rk3326-r36s-panel2-linux.dtb            92665 o
+  + rk3326-r36s-panel3-linux.dtb            92977 o
+  + rk3326-r36s-panel4-linux.dtb            92505 o
+  + uboot-0x800000.bin                   10485760 o
+
+=== README ===
+OK : README present
+
+=== GIT INIT ===
+  fichiers stages : 31
+  commit : 0150eb5 Aventure R36S - le secret des 4 octets
