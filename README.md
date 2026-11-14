@@ -2,7 +2,6 @@
 
 ## Contexte
 - Console R36S (V12 2023-08-18 2445) affichait des bandes verticales.
-- La carte SD était mal enfoncée, puis correctement insérée.
 - Problème logiciel : le pilote Linux 4.4.189 ne lisait pas le bon timing.
 
 ## Découverte
