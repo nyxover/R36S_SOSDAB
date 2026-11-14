@@ -1,0 +1,12 @@
+DTB copies :
+  rk3326-r36s-panel3-porches.dtb           OK 0267527EB6BC4CD1DB3FA717BD6820B8
+  rk3326-r36s-panel3-flags.dtb             OK F0D03E7032EB33C5D51851B1956AD98C
+  uboot-panel3.dtb                         OK 2EA34278045DB94AC40AA1F922C375AA
+boot.ini -> rk3326-r36s-panel3-porches.dtb  (526 octets)
+u-boot installe :
+  rg351mp-uboot.dtb        OK 2EA34278045DB94AC40AA1F922C375AA
+  rg351v-uboot.dtb         OK 2EA34278045DB94AC40AA1F922C375AA
+  rg351p-uboot.dtb         OK 2EA34278045DB94AC40AA1F922C375AA
+verif finale : boot.ini 526 o / CR=False / BOM=False
+
+PRET : ejecte la carte et demarre.

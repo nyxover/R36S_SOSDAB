@@ -1,0 +1,17 @@
+=== avant rescan ===
+disk5 : Mass Storage Device | USB | 0 Go | No Media
+Update-HostStorageCache : L?acc?s ? une ressource?CIM n??tait pas disponible pour le client.
+
+=== apres rescan ===
+disk0 : INSSD1TS625VSXAMZ | SATA | 953,9 Go | Online
+disk1 : Hitachi HDT721075SLA360 | SATA | 698,6 Go | Online
+disk4 : Force MP510 | NVMe | 447,1 Go | Online
+disk2 : TOSHIBA MQ01ABF050 | SATA | 465,8 Go | Online
+disk5 : Mass Storage Device | USB | 0 Go | No Media
+
+=== partitions du disque 5 ===
+  aucune : Aucun objet MSFT_Partition avec la propri?t? ??DiskNumber?? ?gale ? ??5?? n?a ?t? trouv?. V?rifiez la valeur de la propri?t? et r?essayez.
+
+=== test acces I: ===
+Test-Path I:\boot.ini = False
+acces brut PhysicalDrive5 : ECHEC -> Exception lors de l'appel de ??Open?? avec ??4?? argument(s)?: ??L'acc?s au chemin d'acc?s '\\.\PhysicalDrive5' est refus?.??

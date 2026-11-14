@@ -1,0 +1,8 @@
+=== CARTE A ECRIRE ===
+C:\Users\buire\Downloads\r36s\AURKNIX-RK3326.aarch64-20260809.img
+2?198?863?872 octets (2,05 Go)
+
+=== RECHERCHE D UN DISQUE USB ===
+AUCUN disque USB detecte (la carte n est pas vue par Windows).
+
+Rien n a ete modifie.

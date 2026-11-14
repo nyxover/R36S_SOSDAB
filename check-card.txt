@@ -1,0 +1,17 @@
+=== IMAGE DISPONIBLE ===
+C:\Users\buire\Downloads\r36s\AURKNIX-RK3326.aarch64-20260809.img
+2?198?863?872 octets  (2,05 Go)
+
+=== DISQUES ===
+disk0 : INSSD1TS625VSXAMZ | SATA | 953,87 Go | Online
+disk1 : Hitachi HDT721075SLA360 | SATA | 698,64 Go | Online
+disk4 : Force MP510 | NVMe | 447,13 Go | Online
+disk2 : TOSHIBA MQ01ABF050 | SATA | 465,76 Go | Online
+disk5 : Mass Storage Device | USB | 0 Go | No Media
+
+=== LETTRE I: ===
+Test-Path I:\ = False
+
+=== ACCES BRUT ===
+PhysicalDrive5 : ECHEC
+PhysicalDrive6 : ECHEC

@@ -1,0 +1,37 @@
+BASE NOYAU : C:\Users\buire\AppData\Local\Temp\opencode\r36s-backup-20261114\rk3326-r36s-linux.dtb  (91239 o)
+A / porches seuls -> OK  C:\Users\buire\AppData\Local\Temp\opencode\r36s\candidates\rk3326-r36s-panel3-porches.dtb
+B / porches + flags -> OK  C:\Users\buire\AppData\Local\Temp\opencode\r36s\candidates\rk3326-r36s-panel3-flags.dtb
+BASE UBOOT : C:\Users\buire\AppData\Local\Temp\opencode\r36s-backup-20261114\rg351mp-uboot.dtb  (59322 o)
+U / u-boot porches  -> OK  C:\Users\buire\AppData\Local\Temp\opencode\r36s\candidates\uboot-panel3.dtb
+
+=== VERIFICATION (relecture des fichiers produits) ===
+--- rk3326-r36s-panel3-porches.dtb  md5=0267527EB6BC4CD1DB3FA717BD6820B8
+    clock-frequency    29000000
+    hfront-porch       150
+    hsync-len          4
+    hback-porch        150
+    vfront-porch       16
+    vsync-len          2
+    vback-porch        14
+    dsi,flags          0x0A03
+    cadence calculee   60 Hz
+--- rk3326-r36s-panel3-flags.dtb  md5=F0D03E7032EB33C5D51851B1956AD98C
+    clock-frequency    29000000
+    hfront-porch       150
+    hsync-len          4
+    hback-porch        150
+    vfront-porch       16
+    vsync-len          2
+    vback-porch        14
+    dsi,flags          0x0E03
+    cadence calculee   60 Hz
+--- uboot-panel3.dtb  md5=2EA34278045DB94AC40AA1F922C375AA
+    clock-frequency    29000000
+    hfront-porch       150
+    hsync-len          4
+    hback-porch        150
+    vfront-porch       16
+    vsync-len          2
+    vback-porch        14
+    dsi,flags          0x0A03
+    cadence calculee   60 Hz

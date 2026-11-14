@@ -1,0 +1,75 @@
+﻿FICHIER   : C:\Users\buire\Downloads\r36s\rk3326-gameconsole-r36s-panel3.dtb
+TAILLE    : 70291 octets
+MD5       : 9F0457B012B9176EE86F98BBB9AAA0C7
+MAGIC dtb : True
+
+ROOT compatible : gameconsole,r35s | gameconsole,r36s | rockchip,rk3326 | 
+ROOT model      : Game Console R36S Panel3 | 
+
+NODE /dsi@ff450000
+    #address-cells               1
+    #size-cells                  0
+    clock-names                  (5 o) 70 63 6C 6B 00
+    clocks                       (8 o) 00 00 00 02 00 00 01 44
+    compatible                   (40 o) 72 6F 63 6B 63 68 69 70 2C 70 78 33 30 2D 6D 69 70 69 2D 64 73 69 00 73
+    interrupts                   (12 o) 00 00 00 00 00 00 00 4B 00 00 00 04
+    phandle                      234
+    phy-names                    (5 o) 64 70 68 79 00
+    phys                         69
+    power-domains                (8 o) 00 00 00 73 00 00 00 0C
+    reg                          (16 o) 00 00 00 00 FF 45 00 00 00 00 00 00 00 01 00 00
+    reset-names                  1634755072
+    resets                       (8 o) 00 00 00 02 00 00 00 3D
+    rockchip,grf                 46
+    status                       (5 o) 6F 6B 61 79 00
+
+NODE /dsi@ff450000/ports
+    #address-cells               1
+    #size-cells                  0
+
+NODE /dsi@ff450000/ports/port@0
+    #address-cells               1
+    #size-cells                  0
+    phandle                      235
+    reg                          0
+
+NODE /dsi@ff450000/ports/port@0/endpoint@0
+    phandle                      151
+    reg                          0
+    remote-endpoint              145
+
+NODE /dsi@ff450000/ports/port@1
+    phandle                      236
+    reg                          1
+
+NODE /dsi@ff450000/ports/port@1/endpoint
+    phandle                      149
+    remote-endpoint              146
+
+NODE /dsi@ff450000/panel@0
+    backlight                    147
+    compatible                   (20 o) 72 6F 63 6B 6E 69 78 2C 67 65 6E 65 72 69 63 2D 64 73 69 00
+    iovcc-supply                 148
+    panel_description            (2894 o) 47 20 73 69 7A 65 3D 35 32 2C 37 30 20 64 65 6C 61 79 73 3D 32 30 2C 31
+    phandle                      237
+    reg                          0
+    reset-gpios                  (12 o) 00 00 00 80 00 00 00 10 00 00 00 01
+    vdd-supply                   148
+
+NODE /dsi@ff450000/panel@0/port/endpoint
+    phandle                      146
+    remote-endpoint              149
+
+NODE /backlight
+    brightness-levels            (1024 o) 00 00 00 00 00 00 00 01 00 00 00 02 00 00 00 03 00 00 00 04 00 00 00 05
+    compatible                   (14 o) 70 77 6D 2D 62 61 63 6B 6C 69 67 68 74 00
+    default-brightness-level     128
+    phandle                      147
+    power-supply                 166
+    pwms                         (16 o) 00 00 00 A7 00 00 00 00 00 00 61 A8 00 00 00 00
+
+=== CADENCES ===
+
+=== COPIE VERS LA CARTE ===
+ECHEC copie : Le périphérique n’est pas prêt.
+
